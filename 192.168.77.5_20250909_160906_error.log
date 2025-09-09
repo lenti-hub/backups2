@@ -1,0 +1,5 @@
+expect: spawn id exp4 not open
+    while executing
+"expect {
+    "#" { send "exit\r" }
+}"
