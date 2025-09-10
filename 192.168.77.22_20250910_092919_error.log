@@ -1,6 +1,0 @@
-expect: spawn id exp4 not open
-    while executing
-"expect {
-    "#" { send "show running-config\r" }
-    timeout { send_user "ERROR: Timeout on show running-config\n"; }
-}"
