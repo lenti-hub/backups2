@@ -1,6 +1,0 @@
-expect: spawn id exp4 not open
-    while executing
-"expect {
-    ">" { send "enable\r" }
-    timeout { send_user "ERROR: Timeout on enable command\n"; }
-}"
